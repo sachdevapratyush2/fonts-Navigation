@@ -1,0 +1,17 @@
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+p {
+    font-size: 20px;
+    font-style: inherit;
+    font-style: italic;
+    word-wrap: break-word;
+    text-shadow: 2px 2px 2px #30F;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    line-height: 24px;
+    /* font-family: 'Lobster Two', cursive, 'serif', 'cursive'; */
+}

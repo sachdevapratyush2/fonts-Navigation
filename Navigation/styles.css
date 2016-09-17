@@ -1,0 +1,69 @@
+#header {
+    padding: 15px 15px 0px;
+    background: #f5f5f5;
+    position: fixed;
+    width: 100%;
+}
+#header:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.logo {
+    float: left;
+}
+#main-navigation {
+    float: right;
+}
+#main-navigation ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+#main-navigation ul li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+#main-navigation ul li a {
+    text-decoration: none;
+    color: red;
+    padding-bottom: 10px;
+    display: block;
+}
+#main-navigation .dropdown {
+    position: relative;
+}
+#main-navigation .dropdown .messages {
+    display: none;
+    left: -90px;
+    top: 31px;
+    position: absolute;
+    padding: 15px;
+    background-color: burlywood;
+    width: 210px;
+}
+#main-navigation .dropdown .messages li {
+    display: block;
+    margin-bottom: 15px;
+}
+#main-navigation .dropdown .messages li a {
+    color: black;
+}
+#main-navigation .dropdown:hover .messages {
+    display: block;
+}
+.box {
+    padding: 20px;
+}
+.box h2 {
+    font-size: 24px;
+    line-height: 28px;
+    border-bottom: 1px solid #000;
+}
+.box p {
+    font-size: 16px;
+}
+.box a {
+    display: block;
+    text-decoration: none;
+}
